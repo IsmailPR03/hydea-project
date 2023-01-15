@@ -130,9 +130,6 @@
         font-size: 35px;
     }
 
-    /* --------------------------
-    --------------------------- */
-
     .work{
         margin-left: 18px;
     }
@@ -161,6 +158,7 @@
     .Sponspor .description-title{
         font-weight: 700;
         font-size: 35px;
+        margin-top: 60px;
     }
     .logos{
         margin: 10px;
