@@ -173,3 +173,77 @@ header{
     font-weight: 700;
     font-size: 65px;
 }
+
+/* --------------------------
+  work and achievement style 
+-----------------------------*/
+.work{
+    margin-left: 180px;
+}
+.work .description-title{
+    margin-bottom: 10px;
+}
+.work-space{
+    margin: 100px 200px 150px 200px;
+}
+.achieve{
+    display: flex;
+    gap: 100px;
+}
+.achievement{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 120px;
+    padding: 45px 36px;
+    text-align: center;
+    border-radius: 7px;
+}
+.achievement img{
+    margin-bottom: 5px;
+}
+.achievement h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+.achievement p{
+   font-size: 14px;
+   margin-top: 5px;
+   color: #727272;
+}
+
+/*-------------------------
+     Sponspors styles 
+---------------------------*/
+.Sponspor{
+    text-align: center;
+}
+.Sponspor .description-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.logos{
+    margin: 10px 250px 50px 250px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.logo img{
+    width: 100%;
+}
+
+/* ------------------------------
+         footer style 
+---------------------------------*/
+.footer{
+    background: #ff900e1a;
+    padding: 20px 280px;
+    text-align: center;
+    margin: 100px 220px 120px 220px;
+    border-radius: 7px;
+}
+.footer p{
+    color: #424242;
+}
