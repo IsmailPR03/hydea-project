@@ -197,6 +197,11 @@ header{
     padding: 45px 36px;
     text-align: center;
     border-radius: 7px;
+    transition: width 1s, height 1s, transform 1s;
+}
+.achievement:hover {
+    background: #ff900e1a;
+    transform: rotate(360deg);
 }
 .achievement img{
     margin-bottom: 5px;
@@ -232,6 +237,49 @@ header{
 }
 .logo img{
     width: 100%;
+    filter: grayscale(1);
+}
+
+/* ------------------------------
+        contacts us style
+---------------------------------*/
+.hire-me{
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 130px;
+}
+.section-description textarea{
+    border: 3px solid #424242;
+    padding: 20px;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 530px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-description .email{
+    width: 420px;
+    height: 20px;
+    padding: 10px;
+    border: 2px solid #424242;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.input-box .btn-submit{
+    background-color: #FF900E;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-left:;
 }
 
 /* ------------------------------
@@ -247,3 +295,4 @@ header{
 .footer p{
     color: #424242;
 }
+
